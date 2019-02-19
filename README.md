@@ -54,4 +54,4 @@
 
 ### LICENSE
  This website is under the MIT license which can be found [HERE](LICENSE).
- Copyright (c) 2019 kelvinkimathi
+ Copyright (c) 2019 neguskel
