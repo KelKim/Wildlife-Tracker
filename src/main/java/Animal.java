@@ -14,7 +14,7 @@ public class Animal{
         this.health = health;
         this.age = age;
     }
-
+ 
     public String getEndangered(){
         return endangered;
     }
