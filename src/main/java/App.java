@@ -24,6 +24,7 @@ public class App{
             model.put("template", "templates/index.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
+        
 
         get("/homepage", (request, respond) ->{
             Map<String, Object> model = new HashMap<String, Object>();
