@@ -55,6 +55,7 @@ public class Animal{
            .executeAndFetch(Animal.class);
         }
     }
+    
 
     public static String getAnimalName(int id) {
         String sql = "select animal from animal where id = :id;";
