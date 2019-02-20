@@ -33,7 +33,7 @@ public class Sighting{
     public int getId(){
         return id;
     }
-    
+
     public void save() {
         try(Connection con = DB.sql2o.open()) {
            String sql = "INSERT INTO sightings (ranger, location, animal_id, date_sighted) VALUES (:ranger, :location, :animal_id, now())";
@@ -45,6 +45,7 @@ public class Sighting{
            .getKey();
         }
      }
+     
      public static List<Sighting> all() {
         String sql = "select * from sightings";
         try(Connection con = DB.sql2o.open()) {
