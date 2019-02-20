@@ -17,9 +17,11 @@ public class Sighting{
     public String getRanger(){
         return ranger;
     }
+
     public String getLocation(){
         return location;
     }
+    
     public int getAnimalId(){
         return animal_id;
     }
