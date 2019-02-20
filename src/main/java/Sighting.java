@@ -29,10 +29,11 @@ public class Sighting{
     public String getDate_sighted(){
         return date_sighted;
     }
-    
+
     public int getId(){
         return id;
     }
+    
     public void save() {
         try(Connection con = DB.sql2o.open()) {
            String sql = "INSERT INTO sightings (ranger, location, animal_id, date_sighted) VALUES (:ranger, :location, :animal_id, now())";
