@@ -21,13 +21,15 @@ public class Sighting{
     public String getLocation(){
         return location;
     }
-    
+
     public int getAnimalId(){
         return animal_id;
     }
+
     public String getDate_sighted(){
         return date_sighted;
     }
+    
     public int getId(){
         return id;
     }
